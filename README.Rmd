@@ -1,16 +1,26 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-Jean
-====
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# Jean
 
 The goal of Jean is to have all my functions in one place.
 
-Installation
-------------
+## Installation
 
 You can install Jean from github with:
 
-``` r
+```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
 devtools::install_github("jean9208/Personal_Package")
 ```
